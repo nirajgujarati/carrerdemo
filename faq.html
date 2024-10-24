@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For font Family ,used Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>FAQ's</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            line-height: normal;
+            line-height: 1.6;
+            background-color: #ffffff;
+            color: #333;
+            padding: 14px;
+        }
+
+        /* for whole outer body - container*/
+        .maincontioner {
+            width: 100%;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+
+        /* for content part */
+        .contentContainer {
+            padding: 10px;
+        }
+
+        /* for all highlighted Headers */
+        .highlightHeader {
+            font-weight: 600;
+            color: #356899;
+
+        }
+
+        .highlightHeader1 {
+            font-weight: 700;
+            color: #356899;
+        }
+
+        /* for all highlighted Paragraph text */
+        .highlightText {
+            font-weight: 500;
+            color: #356899;
+        }
+
+        /* for add some extra space before bullet points */
+        ul {
+            margin-top: 15px;
+            margin-left: 15px;
+        }
+
+        ul li::marker {
+            color: #356899;
+        }
+
+        ul li {
+            font-size: 20px;
+            margin-bottom: 30px;
+
+        }
+
+        h2 {
+            font-size: 20px;
+        }
+
+        p {
+            padding-top: 5px;
+            font-size: 20px;
+        }
+
+        .innerList {
+            list-style-type: circle;
+            margin-top: 10px;
+            margin-left: 20px;
+            font-size: 20px;
+        }
+
+        .innerList li {
+            margin: 0px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 1024px) {
+            .maincontioner {
+                padding: 15px;
+            }
+
+
+            h2 {
+                font-size: 20px;
+            }
+
+            ul li {
+                font-size: 15px;
+            }
+
+            p,
+            .innerList li {
+                font-size: 15px;
+
+            }
+
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+
+            .maincontioner {
+                padding: 10px;
+            }
+
+
+
+            h2 {
+                font-size: 18px;
+            }
+
+            p,
+            .innerList li {
+                font-size: 15px;
+
+            }
+
+            ul li {
+                font-size: 15px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            body {
+                padding: 10px;
+            }
+
+            .maincontioner {
+                padding: 8px;
+            }
+
+
+
+            h2 {
+                font-size: 16px;
+            }
+
+            p,
+            .innerList li {
+                font-size: 15px;
+
+            }
+
+            ul li {
+                font-size: 14px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            body {
+                padding: 8px;
+            }
+
+            .maincontioner {
+                padding: 5px;
+            }
+
+            h2 {
+                font-size: 14px;
+            }
+
+            p,
+            .innerList li {
+                font-size: 15px;
+
+            }
+
+            ul li {
+                font-size: 13px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maincontioner"> <!-- MainContainer for whole Screen -->
+
+
+        <!-- From here starts all content -->
+        <div class="contentContainer">
+            <!-- <h2 class="highlightHeader">Welcome to Careerwale!</h2> -->
+            <ul>
+                <li>
+                    <h2 class="highlightHeader1">Find answers to the most common questions:
+                    </h2>
+                </li>
+                <!-- From here bulleted points are starts -->
+                <ul>
+        
+                    <li>
+                        <h2 class="highlightHeader">How do I create an account?
+                        </h2>
+                        <p style="padding: 0px;">Go to the <span class="highlightText">sign-up page</span> and enter your details to create a new account.
+                        </p>
+
+                    </li>
+
+                    
+                    <li>
+                        <h2 class="highlightHeader">How do I reset my password?
+                        </h2>
+                        <p>
+                            If you've forgotten your password, click on <span class="highlightText">"Forgot Password"</span> on the login page and follow
+                            the instructions to reset it.
+
+                        </p>
+                    </li>
+
+                    
+                    <li>
+                        <h2 class="highlightHeader"> How can I update my profile information?
+                        </h2>
+                        <p>
+                            Go to <span class="highlightText">"Profile Settings"</span> in the app menu and edit your personal details as needed.
+
+                        </p>
+                    </li>
+
+                    
+                    <li>
+                        <h2 class="highlightHeader">
+                            How do I view my assessments/results?
+                        </h2>
+                        <p>
+                            Navigate to the <span class="highlightText">"Assessments" tab</span> to see all of your completed assessments and their
+                            results.
+                        </p>
+
+
+                    </li>
+
+                    
+                    <li>
+                        <h2 class="highlightHeader"> What if I need help with understanding my results?</h2>
+                        <p>
+                            You can <span class="highlightText">contact</span> our support team or refer to the <span class="highlightText">"Guide" section </span>for detailed explanations
+                            of your results.
+                        </p>
+                    </li>
+
+                    
+                    <li>
+                        <h2 class="highlightHeader">
+                            How do I contact customer support?
+                        </h2>
+                        <p>
+                            Visit the <span class="highlightText">"Contact Us"</span> section or email us directly at <span class="highlightText">support@careerwale.com</span>.
+                        </p>
+                    </li>
+                </ul>
+                <li>
+                    <h2 class="highlightHeader1">Contact Us
+                    </h2>
+
+                    <ol class="innerList" style="list-style-type: none;">
+                        <li style="list-style-type: circle;">For further assistance, reach out to us through the
+                            following channels:
+                        </li>
+                        <li style="margin: 10px;"><span class="highlightText">Email:</span> support@careerwale.com</li>
+                        <li style="margin: 10px;"><span class="highlightText">Phone:</span>+91 82869 01466 </li>
+                        <li style="margin: 10px;"><span class="highlightText">Live Chat:</span> Available within the app under the "Support" tab (9 AM - 6
+                            PM).</li>
+                    </ol>
+                </li>
+
+
+                <li>
+                    <h2 class="highlightHeader1"> Technical Support
+                    </h2>
+
+                    <ol class="innerList" style="list-style-type: none;">
+                        <li style="list-style-type: circle;">Having trouble with the app? Check out these steps:
+
+                        </li>
+                        <li style="margin: 10px; "><span class="highlightText">App Crashing:</span> Try restarting the app or clearing the cache.
+
+
+                        </li>
+                        <li style="margin: 10px;"><span class="highlightText">Login Issues:</span> Ensure you're using the correct credentials. If still an
+                            issue, reset your password.</li>
+                        <li style="margin: 10px;"><span class="highlightText">Slow Performance:</span> Check your internet connection or restart your
+                            device.</li>
+                    </ol>
+                </li>
+
+
+                <li>
+                    <h2 class="highlightHeader1"> Guides & Tutorials
+                    </h2>
+
+                    <ol class="innerList" style="list-style-type: none;">
+                        <li style="list-style-type: circle;">Learn how to use all of the app’s features:
+                        </li>
+                        <li style="margin: 10px; "><span class="highlightText">Getting Started Guide:</span> A step-by-step walkthrough for new users.
+                        </li>
+                        <li style="margin: 10px;"> <span class="highlightText">How to Take an Assessment: </span>Instructions on accessing and completing
+                            your assessments.</li>
+                        <li style="margin: 10px;"> <span class="highlightText">Understanding Your Results:</span> Learn how to interpret your test results.
+                        </li>
+                        <li style="margin: 10px;">
+                            <span class="highlightText">How to Use Your Dashboard: </span>Overview of the key features in your personalized dashboard.</li>
+
+                    </ol>
+                </li>
+
+                <li>
+                    <h2 class="highlightHeader1"> Feedback & Suggestions
+
+                    </h2>
+                    <p>We value your input! If you have any suggestions or feedback to improve the app, please contact
+                        us at<span class="highlightText"> feedback@careerwale.com</span>
+                    </p>
+                </li>
+
+                <li>
+                    <h2 class="highlightHeader1"> Report an Issue
+                    </h2>
+
+                    <ol class="innerList" style="list-style-type: none;">
+                        <li style="list-style-type: circle;">If you encounter any issues while using the app, please
+                            report them:
+
+
+
+                        </li>
+                        <li style="margin: 10px; "><span class="highlightText">In-App Reporting:</span>Tap the "Report an Issue" button in the Support
+                            section.
+                        </li>
+                        <li style="margin: 10px;">
+                            <span class="highlightText"> Email: </span>Describe your issue in detail and send it to support@careerwale.com.</li>
+
+
+                    </ol>
+                </li>
+
+                <li>
+                    <h2 class="highlightHeader1">Privacy & Security
+
+                    </h2>
+                    <p> Your privacy is <span class="highlightText">our priority</span>. Learn more about how we protect your data in the Privacy Policy
+                        section.
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+
+</html>
